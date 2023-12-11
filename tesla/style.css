@@ -1,0 +1,216 @@
+.main {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  body{
+    background-color: #cff4d2;
+    /* border: #2c6e49; */
+    /* border-top: 30px solid rgb(224, 213, 181);    
+    border-right: 30px solid rgb(224, 213, 181);  
+    border-bottom: 30px solid rgb(224, 213, 181); 
+    border-left: 30px rgb(224, 213, 181);    */
+    margin: 0%; 
+    padding: 0%; 
+    margin: auto;
+   
+  }
+  
+  .title {
+    padding-top : 3%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e6a692;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  .title:hover{
+    color: #2c6e49;
+  }
+  
+  .subtitle {
+    margin: -15px 0px 35px 0px;
+    text-align: center;
+    color: #e6a692
+  }
+  .photo{
+    align-items: center;
+    display: flex;
+    margin-left: 300px;
+    ;
+    /* float: right; */
+    /* margin: 10px; */
+    border-radius: 50%;
+    
+
+  }
+  .quote {
+    font-weight: bold;
+    font-size: medium;
+    /* margin: 35px 0px 15px 0px; */
+    align-items: center;
+    /* padding: 5%; */
+    border-top: 5px solid rgb(224, 213, 181);    
+    border-right: 5px solid rgb(224, 213, 181);  
+    border-bottom: 5px solid rgb(224, 213, 181); 
+    border-left: 5px rgb(224, 213, 181);   
+    box-sizing: border-box;
+      cursor: pointer;
+    color: #e6a692;
+  }
+
+  
+      
+    
+    
+  
+  
+  
+  .source-quote {
+    font-size: small;
+    align-content: center;
+    border-radius: 50%;
+  }
+  
+  .timeline,
+  .fun-facts {
+    margin: 80px 0px 50px 0px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e6a692;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .fun-facts:hover{
+    color: #2c6e49;
+  }
+    .timeline:hover{
+      color: #2c6e49;
+
+  }
+  
+  .title-event {
+    font-weight: bold;
+    font-size: large;
+    
+  }
+  
+  .date-event {
+    font-size: x-large;
+    padding: 20px 20px 0px 20px;
+    font-weight: bold;
+    color: #e6a692;
+    text-align: center;
+
+    
+    
+  }
+  
+  /* .date-event:hover{
+    color: #26a69a;
+  } */
+  .description {
+    margin: -5px 0px 20px 0px;
+    text-decoration: underline;
+    text-align: center;
+    
+  }
+  
+  .msg-event {
+    text-align: justify;
+    text-align-last: center;
+    /* margin: 10px; */
+    /* overflow: scroll; */
+    }
+   
+    .msg-event:hover{
+      background-color: #e6a692;
+    }
+    
+  
+  
+.collapsible-body{
+    background-color: #ffc9b9;
+    border: 2px solid #2c6e49; 
+    border-radius: 20%;
+  overflow: auto;
+  cursor: pointer;
+  padding: 10px;
+  /* overflow: scroll; */
+}
+      /* padding: 5px; Add padding for better appearance
+  }
+  /* } */ */
+  .collapsible-body:hover{
+    color: #2c6e49;
+  }
+  
+  .link {
+    width: 100%;
+    /* margin: 0px 0px 25px 0px; */
+    justify-content: center;
+  }
+  
+  blockquote {
+    /* border-left: 5px solid #26a69a; */
+  }
+  
+  .page-footer,
+  .pad {
+    /* margin-right: -14.3%;
+    margin-left: -14.3%; */
+    align-items: center;
+    text-align: center;
+    
+  
+  }
+  .page-footer:hover{
+    color: #e6a692;
+  }
+  
+  /* .world-history-project,
+  .ovelny,
+  .share {
+    font-weight: bold;
+  } */
+  
+  /* .icon {
+    padding: 0px 0px 0px 10px;
+    vertical-align: -3px; */
+  /* } */
+  
+  .pad {
+    height: 50px;
+    
+  }
+
+  ul{
+    font-family:'Times New Roman', Times, serif;
+    color: #fefee3;
+    list-style: none;
+  }
+
+  .J{
+    align-items: center;
+  }
+
+ A{
+  color: #ffc9b9;
+ 
+ }
+
+ .tesla{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 200px;
+  margin-right: 150px;
+  margin-left: 10px;
+  
+ 
+
+  
+ 
+ }

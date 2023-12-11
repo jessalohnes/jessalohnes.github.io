@@ -1,0 +1,183 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-Jun-2022, 11:37:46 AM
+    Author     : nicolesawler
+*/
+
+header{
+    text-align:center;
+    text-transform:uppercase;
+}
+nav{
+   width:100%;
+    display:block; 
+    background:linear-gradient(#7c40ff,#d8c7ff);
+    height:40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+nav ul{
+    list-style:none;
+}
+nav li{
+    /* float:left; */
+    /* line-height:40px; */
+    margin:15px;
+    display: inline-block;
+}
+nav li:hover{
+    background:linear-gradient(#7c40ff,#d8c7ff);
+}
+nav li a{
+    color:white;
+}
+main{
+    width:100%;
+    display:block;
+    clear:both;
+}
+
+
+
+
+.index{
+    background:linear-gradient(#7c40ff,#d8c7ff);
+    /* background-color:#3a9bdc */
+}
+.page1{
+    background:linear-gradient(#7c40ff,#d8c7ff);
+}
+
+.page2{
+    background:linear-gradient(#7c40ff,#d8c7ff);
+}
+
+.page3{
+    background:linear-gradient(#7c40ff,#d8c7ff);
+}
+
+.content{
+    width:85%;
+    background:white;
+    margin:20px auto;
+    padding:20px;
+}
+
+/* page 2 */
+* {
+  box-sizing: border-box;
+}
+
+.columns{
+  column-count: 3;
+  column-gap: 5%;
+}
+
+.grid {
+  padding: 5px;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.grid > * {
+  border-radius: 8px;
+}
+
+/* page 1*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%; font-weight: normal;}
+.col-15{text-align: center;}
+
+[class*="col-"] {
+  float:left;
+  padding: 15px;
+ 
+  border: 1px solid rgb(108,91,123) ;
+  
+}
+
+
+.row{
+    width:100%;
+    display:block;
+    clear:both;
+    background:white;
+}
+
+.container{
+    clear:both;
+    height:100%;
+    display:block;
+    width:100%;
+}
+
+/* page 3 */
+
+img {
+    max-width:100%;
+    
+}
+
+
+#footer {
+  clear: both;
+  height:40px;
+  bottom:0;
+  position:relative;
+  background:white;
+  width:100%;
+  
+  text-align:center;
+  line-height:40px;
+  text-transform:uppercase;
+  border-top:1px solid #ccc;
+}
+
+h1{
+    text-align: center;
+    font-family:sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-family: Papyrus;
+}
+
+h3{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+h4{font-weight: normal;}
+
+
+
+/* new */
+
+.resumeDownload{
+    text-align:center;
+}
